@@ -1,0 +1,83 @@
+@media only screen and (max-width: 760px) {
+
+header {
+    margin: 0;
+    background-position: left center;
+}
+
+header>div {
+    padding: 0 0 0 15px;
+}
+
+#top-menu {
+    display: none;
+}
+
+#site-brand {
+    text-align: center;
+    float: none;
+    display: block;
+}
+
+#type-container {
+    padding-top: 60px;
+}
+
+#type-container > p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+
+#i-am-blocks div {
+    padding: 0;
+}
+
+#i-am-blocks img {
+    padding: 0%;
+    width: 50%;
+}
+
+#i-am-blocks h3 {
+    border: 0;
+    padding-top: 5px;
+}
+
+#i-am-blocks p {
+    padding-bottom: 25px;
+}
+
+
+#skills {
+    width: 100%;
+    padding: 20px 0px;
+}
+
+footer .text-center:nth-child(even) {
+    border-bottom: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+}
+
+footer .text-center {
+    width: 90%;
+    margin: auto;
+}
+
+
+
+
+
+
+#social {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,286 @@
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #cccccc;
+}
+
+.section-heading {
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+
+.zoomable {
+    opacity: 0; 
+    animation-delay: 0ms;
+    animation-iteration-count: 1;
+    animation-duration: 1000ms;
+}
+
+#page,html {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Denk One', sans-serif;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    background: url(img/header-bg.jpg) right center;
+    background-color: #1E1E1E;
+    background-size: cover;
+    position: relative;
+}
+
+#top-bar {
+    background: #252526;
+    opacity: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 100;
+    padding: 0;
+    box-shadow: 0px 4px 7px #000000;
+}
+
+#site-brand {
+    overflow: hidden;
+    margin: 0;
+    float: left;
+    height: 45px;
+    line-height: 45px;
+    color: #ffffff;
+    font-size: 1.5em;
+    display: inline-block;
+}
+
+#site-brand img {
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+nav {
+    overflow: hidden;
+    width: 100%;
+}
+
+#top-menu {
+    float: right;
+    font-family: 'Abel', sans-serif;
+    margin: 0;
+    height: 45px;
+    line-height: 45px;
+}
+
+#top-menu li{
+    display: inline;
+    padding: 0px;
+}
+
+#top-menu li.active {
+    border: 2px solid #ffffff;
+}
+
+#top-menu a{
+    color: #ffffff;
+
+    letter-spacing: 2px;
+    padding: 10px 10px;
+}
+
+#top-menu a:hover {
+    color: #569CB7;
+}
+
+#type-container {
+    padding-top: 80px;
+}
+
+#type-container > p {
+    font-weight: normal;
+    font-size: 1.5em;
+    margin-bottom: 0;
+    font-family: 'Abel', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.level1txt {
+    color: #569CB7;
+}
+
+.level2txt {
+    margin-left: 50px;
+    color: #ffffff;
+}
+
+#see-more-btn-container {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+#see-more-btn {
+    color: #569CB7;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 1.5px;
+    word-spacing: 4px;
+    padding: 5px 10px;
+    border: 2px solid #569CB7;
+}
+
+#i-am {
+    margin-bottom: 0px;
+    
+}
+
+#i-am-blocks div {
+    padding: 20px 4%;
+    text-align: center;
+}
+
+#i-am-blocks img {
+    border-radius: 50%;
+    height: 100%;
+    width: 70%;
+    padding: 0%;
+    margin: 0 auto 20px 0;
+    border: 1px solid #252526;
+}
+
+#i-am-blocks h3 {
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #252526;
+}
+
+#i-am-blocks p {
+    font-size: 0.9em;
+    padding: 0 10px;
+    letter-spacing: 0.3px;
+}
+
+
+
+/* SKILLS */
+
+#skills {
+    width: 50%;
+    margin: auto;
+    padding: 20px 15px;
+}
+
+.skill-label {
+    margin-left: 20px;
+    font-weight: bold;
+    display: none;
+}
+
+.skill-meter {
+    border: 2px solid #3c3c3c;
+    padding: 2px;
+    border-radius: 0 20px 20px 0;
+    margin: 10px 0 15px 0;
+    background: #ffffff;
+}
+
+.skill-line {
+    width: 0%;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 0 20px 20px 0;
+    background: #252526;
+    font-family: 'Abel', sans-serif;
+    overflow: hidden;
+}
+
+.skill-line p {
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+
+
+
+footer {
+    background: #252526;
+    color: #ffffff;
+    font-size: 0.8em;
+}
+
+footer .text-center {
+    padding: 30px 0 10px 0;
+}
+
+footer li>a {
+    color: #569CB7;
+}
+
+footer li {
+    padding: 0;
+    margin: 5px 15px;
+}
+
+footer h5  {
+    margin-bottom: 15px;
+}
+
+footer span {
+    border-bottom: 1px solid #ffffff;
+    padding: 0px 10px;
+}
+
+#subscribe-btn {
+    background: #252526;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 1em;
+    padding: 5px 15px;
+    letter-spacing: 1.5px;
+}
+
+#subscribe-btn:hover {
+    background: #ffffff;
+    font-weight: bold;
+    color: #252526
+}
+
+footer h6 {
+    font-weight: normal;
+    font-size: 1em;
+    letter-spacing: 1px;
+    text-align: right;
+}
+
+#footer-contacts a {
+    color: #ffffff;
+}
+
+#footer-contacts .btn {
+    margin-left: 10px;
+    padding: 2px 7px;
+    font-size: 0.8em;
+}
+
+
+#social {
+    z-index: 5;
+    position: fixed;
+    top: 35%;
+    right: 0;
+}
+
+#social img {
+    width: 34px;
+}
